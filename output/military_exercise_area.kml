@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>HN136/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+    <Placemark>
+      <name>HN136/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>Military exercises in area bounded by the coordinates from 052200 UTC Nov to 061200 UTC Nov. Entering prohibited. Hainan MSA China.</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.513333333333,18.8733333333333,0
+              110.614666666667,18.8733333333333,0
+              110.614666666667,18.7805,0
+              110.513333333333,18.7805,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

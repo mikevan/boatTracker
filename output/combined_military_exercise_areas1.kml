@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+  <name>Ship Tracker</name>
+  <description> A ship tracking script and output used to generate a KML file useful in displaying ship areas</description>
+  <Style id="thinBlackLine">
+    <LineStyle>
+     <color>87000000</color>
+     <width>1</width>
+    </LineStyle>
+   </Style>
+       <Style id="transparentPolyStyle">
+      <PolyStyle>
+        <color>80ADD8E6</color> <!-- Semi-transparent blue -->
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>HN127/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>ENTERING PROHIBITED. HAINAN MSA CHINA.</description>
+      <styleUrl>#thinBlackLine</styleUrl>
+      <styleUrl>#transparentPolyStyle</styleUrl>
+      <TimeSpan>
+        <begin>2024-10-31T13:00:00Z</begin>
+        <end>2024-11-01T07:00:00Z</end>
+      </TimeSpan>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.904500,20.572000,0
+              110.997000,20.595500,0
+              111.179167,20.099667,0
+              111.089167,20.072167,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

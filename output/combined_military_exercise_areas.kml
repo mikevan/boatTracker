@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+  <name>Ship Tracker</name>
+  <description> A ship tracking script and output used to generate a KML file useful in displaying ship areas</description>
+  <Style id="thinBlackLine">
+    <LineStyle>
+     <color>87000000</color>
+     <width>1</width>
+    </LineStyle>
+   </Style>
+       <Style id="transparentPolyStyle">
+      <PolyStyle>
+        <color>80ADD8E6</color> <!-- Semi-transparent blue -->
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Placemark>
+      <name>HN127/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>ENTERING PROHIBITED. HAINAN MSA CHINA.</description>
+      <styleUrl>#thinBlackLine</styleUrl>
+      <styleUrl>#transparentPolyStyle</styleUrl>
+      <TimeSpan>
+        <begin>2024-10-31T13:00:00Z</begin>
+        <end>2024-11-01T07:00:00Z</end>
+      </TimeSpan>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.904500,20.572000,0
+              110.997000,20.595500,0
+              111.179167,20.099667,0
+              111.089167,20.072167,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HN128/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>No description provided.</description>
+      <styleUrl>#thinBlackLine</styleUrl>
+      <styleUrl>#transparentPolyStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.930833,20.097500,0
+              111.322167,20.139667,0
+              111.442000,19.794500,0
+              111.039167,19.654667,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HN130/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>No description provided.</description>
+      <styleUrl>#thinBlackLine</styleUrl>
+      <styleUrl>#transparentPolyStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.956667,19.957833,0
+              111.268333,19.976667,0
+              111.268333,19.850000,0
+              110.993833,19.835000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HN132/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>No description provided.</description>
+      <styleUrl>#thinBlackLine</styleUrl>
+      <styleUrl>#transparentPolyStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.956667,19.957833,0
+              111.268333,19.976667,0
+              111.268333,19.850000,0
+              110.993833,19.835000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HN136/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>No description provided.</description>
+      <styleUrl>#thinBlackLine</styleUrl>
+      <styleUrl>#transparentPolyStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.513333,18.873333,0
+              110.614667,18.873333,0
+              110.614667,18.780500,0
+              110.513333,18.780500,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>HN137/24 SOUTH CHINA SEA MILITARY EXERCISES</name>
+      <description>No description provided.</description>
+      <styleUrl>#thinBlackLine</styleUrl>
+      <styleUrl>#transparentPolyStyle</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              110.513333,18.873333,0
+              110.614667,18.873333,0
+              110.614667,18.780500,0
+              110.513333,18.780500,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+	<Placemark>
+  <name>6 Mile Radius</name>
+  <styleUrl>#transparentPolyStyle</styleUrl>
+  <Polygon>
+    <outerBoundaryIs>
+      <LinearRing>
+        <coordinates>
+110.955300,19.705538,0
+110.961092,19.705367,0
+110.966861,19.704853,0
+110.972584,19.703999,0
+110.978239,19.702808,0
+110.983803,19.701286,0
+110.989254,19.699437,0
+110.994572,19.697269,0
+110.999734,19.694791,0
+111.004720,19.692013,0
+111.009512,19.688945,0
+111.014089,19.685600,0
+111.018433,19.681991,0
+111.022528,19.678132,0
+111.026358,19.674039,0
+111.029907,19.669727,0
+111.033161,19.665213,0
+111.036108,19.660517,0
+111.038735,19.655655,0
+111.041033,19.650647,0
+111.042992,19.645513,0
+111.044606,19.640274,0
+111.045866,19.634949,0
+111.046769,19.629561,0
+111.047311,19.624129,0
+111.047490,19.618677,0
+111.047305,19.613224,0
+111.046757,19.607793,0
+111.045848,19.602406,0
+111.044582,19.597082,0
+111.042963,19.591844,0
+111.040999,19.586712,0
+111.038697,19.581707,0
+111.036066,19.576847,0
+111.033116,19.572153,0
+111.029860,19.567643,0
+111.026309,19.563333,0
+111.022479,19.559243,0
+111.018384,19.555387,0
+111.014040,19.551781,0
+111.009464,19.548438,0
+111.004675,19.545373,0
+110.999692,19.542598,0
+110.994533,19.540122,0
+110.989220,19.537957,0
+110.983774,19.536110,0
+110.978215,19.534589,0
+110.972566,19.533399,0
+110.966848,19.532546,0
+110.961086,19.532033,0
+110.955300,19.531862,0
+110.949514,19.532033,0
+110.943752,19.532546,0
+110.938034,19.533399,0
+110.932385,19.534589,0
+110.926826,19.536110,0
+110.921380,19.537957,0
+110.916067,19.540122,0
+110.910908,19.542598,0
+110.905925,19.545373,0
+110.901136,19.548438,0
+110.896560,19.551781,0
+110.892216,19.555387,0
+110.888121,19.559243,0
+110.884291,19.563333,0
+110.880740,19.567643,0
+110.877484,19.572153,0
+110.874534,19.576847,0
+110.871903,19.581707,0
+110.869601,19.586712,0
+110.867637,19.591844,0
+110.866018,19.597082,0
+110.864752,19.602406,0
+110.863843,19.607793,0
+110.863295,19.613224,0
+110.863110,19.618677,0
+110.863289,19.624129,0
+110.863831,19.629561,0
+110.864734,19.634949,0
+110.865994,19.640274,0
+110.867608,19.645513,0
+110.869567,19.650647,0
+110.871865,19.655655,0
+110.874492,19.660517,0
+110.877439,19.665213,0
+110.880693,19.669727,0
+110.884242,19.674039,0
+110.888072,19.678132,0
+110.892167,19.681991,0
+110.896511,19.685600,0
+110.901088,19.688945,0
+110.905880,19.692013,0
+110.910866,19.694791,0
+110.916028,19.697269,0
+110.921346,19.699437,0
+110.926797,19.701286,0
+110.932361,19.702808,0
+110.938016,19.703999,0
+110.943739,19.704853,0
+110.949508,19.705367,0
+110.955300,19.705538,0
+        </coordinates>
+      </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+</Placemark>
+  </Document>
+</kml>

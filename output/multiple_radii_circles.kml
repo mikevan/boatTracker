@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+  <name>Multiple Radii Circles</name>
+  <description>Circles with varying radii around center points</description>
+  <Style id="transparentPolyStyle">
+      <PolyStyle>
+        <color>80ADD8E6</color> <!-- Semi-transparent blue -->
+        <outline>1</outline>
+      </PolyStyle>
+  </Style>
+  </Document>
+</kml>
